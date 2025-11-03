@@ -67,14 +67,19 @@ http
 DELETE http://localhost:8082/banque/comptes/1
 📷 Captures d'écran
 H2 Console
+<img width="960" height="510" alt="tp1" src="https://github.com/user-attachments/assets/b8b051bc-fd3c-49ff-96c6-1bfd4443e044" />
 
-Postman - Ajouter un compte
+<img width="960" height="510" alt="tp7_1" src="https://github.com/user-attachments/assets/71c76e2e-a42b-4f20-9b18-3ff575a69550" />
 
-Postman - Mettre à jour un compte
 
-Postman - Supprimer un compte
+<img width="960" height="510" alt="tp7_2" src="https://github.com/user-attachments/assets/2a6d138c-026e-4937-a88c-2ed203f8fddf" />
 
-⚠️ Remplace les images par tes propres captures dans le dossier captures/.
+<img width="960" height="510" alt="tp7_3" src="https://github.com/user-attachments/assets/2beff877-83bf-40e5-bc61-d8a0f6571af3" />
+
+<img width="960" height="510" alt="tp7_4" src="https://github.com/user-attachments/assets/76896237-9360-4a4f-8c65-b6bc51b8764f" />
+
+<img width="960" height="510" alt="tp7_5" src="https://github.com/user-attachments/assets/dd9dbf9c-613c-472f-ad73-adea63858258" />
+
 
 📝 Remarques
 La base de données H2 utilisée est volatile : elle se réinitialise à chaque redémarrage de l'application.
