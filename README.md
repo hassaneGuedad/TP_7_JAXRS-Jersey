@@ -16,7 +16,8 @@ Un navigateur pour accéder à la console H2
 1. Cloner le projet
 git clone https://github.com/hassaneGuedad/TP_7_JAXRS-Jersey.git
 cd ms-banque
-2. Démarrer avec Maven
+
+3. Démarrer avec Maven
 
 mvn spring-boot:run
 L'application démarre par défaut sur le port 8082.
@@ -42,31 +43,41 @@ POST	/banque/comptes	Ajouter un compte
 PUT	/banque/comptes/{id}	Mettre à jour un compte
 DELETE	/banque/comptes/{id}	Supprimer un compte
 🧪 Tests via Postman
+
 1️⃣ Ajouter un compte
+
 http
 POST http://localhost:8082/banque/comptes
 Content-Type: application/json
-json
+
 {
   "solde": 12000,
   "dateCreation": "2025-11-03",
   "type": "COURANT"
 }
+
 2️⃣ Mettre à jour un compte
+
+
 http
 PUT http://localhost:8082/banque/comptes/1
 Content-Type: application/json
-json
+
+
 {
   "solde": 15000,
   "dateCreation": "2025-11-03",
   "type": "EPARGNE"
 }
+
 3️⃣ Supprimer un compte
-http
+
 DELETE http://localhost:8082/banque/comptes/1
+
 📷 Captures d'écran
+
 H2 Console
+
 <img width="960" height="510" alt="tp1" src="https://github.com/user-attachments/assets/b8b051bc-fd3c-49ff-96c6-1bfd4443e044" />
 
 <img width="960" height="510" alt="tp7_1" src="https://github.com/user-attachments/assets/71c76e2e-a42b-4f20-9b18-3ff575a69550" />
